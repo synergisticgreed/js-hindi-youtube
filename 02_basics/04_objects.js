@@ -22,3 +22,19 @@ console.log(obj3);
 
 //object assign
 
+
+
+
+
+//api is a json format data
+//api is an object without variable holding
+
+
+
+
+//api can be in objects or array of objects
+
+
+//json: javascript object notation
+
+
