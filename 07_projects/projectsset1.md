@@ -201,3 +201,78 @@ function newGame(){
 }
 
 ```
+
+
+
+## Project-5
+[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/5-keyboard/index.html)
+```JavaScript
+console.log("Fifth Project")
+const insert=document.getElementById('insert')
+
+window.addEventListener('keydown',(e)=>{
+    insert.innerHTML=`
+    <div class='color'>
+    <table>
+  <tr>
+    <th>Key</th>
+    <th>KeyCode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>${e.key===" " ? "Space" : e.key}</td>
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
+  </tr>
+  
+</table>
+    </div>
+    `
+})
+
+
+```
+
+
+
+## Project-6
+[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/6-unlimitedColors/index.html)
+```JavaScript
+console.log("Sixth Project")
+//generate a random color
+
+const randomColor=function(){
+    const hex="0123456789ABCDEF";
+    let color='#'
+    for(let i=0;i<6;i++){
+        color+=hex[Math.floor(Math.random()*16)]
+    }
+    return color;
+};
+//console.log(Math.floor(Math.random()*16));
+let intervalId;
+const startChangingColor=function(){
+    if(!intervalId){
+        intervalId=setInterval(changeBgColor,1000)
+    }
+    
+
+    function changeBgColor(){
+        document.body.style.backgroundColor=randomColor();
+
+    }
+}
+const stopChangingColor=function(){
+    clearInterval(intervalId)
+    intervalId=null;
+}
+
+document.querySelector('#start').addEventListener('click',startChangingColor)
+document.querySelector('#stop').addEventListener('click',stopChangingColor)
+
+
+
+
+```
+
+
