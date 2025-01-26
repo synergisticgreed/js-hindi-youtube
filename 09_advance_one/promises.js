@@ -114,4 +114,14 @@ async function getAllUsers(){
 getAllUsers()
 
 
+
 //We can write this in .then.catch.finally format also!!!!
+
+
+
+
+
+
+
+
+//now the fetch api!!!!!!!
