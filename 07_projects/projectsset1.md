@@ -1,11 +1,11 @@
 # Projects related to DOM
 ## project link
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/index.html)
 
 # Solution Code
 
 ## Project-1
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/1-colorChanger/index.html)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/1-colorChanger/index.html)
 ```JavaScript
 console.log("First Project")
 const buttons=document.querySelectorAll('.button');
@@ -45,7 +45,7 @@ buttons.forEach(function(button){
 
 
 ## Project-2
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/2-BMICalculator/index.html)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/2-BMICalculator/index.html)
 ```JavaScript
 console.log("Second Project")
 const form = document.querySelector('form')
@@ -77,7 +77,7 @@ form.addEventListener('submit',function(e){
 
 
 ## Project-3
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/3-DigitalClock/index.html)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/3-DigitalClock/index.html)
 ```JavaScript
 console.log("Third Project")
 const clock=document.querySelector('#clock')
@@ -94,7 +94,7 @@ setInterval(function(){
 
 
 ## Project-4
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/4-GuessTheNumber/index.html)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/4-GuessTheNumber/index.html)
 ```JavaScript
 console.log("Fourth Project")
 let randomNumber=(parseInt(Math.random()*100+1));
@@ -205,7 +205,7 @@ function newGame(){
 
 
 ## Project-5
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/5-keyboard/index.html)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/5-keyboard/index.html)
 ```JavaScript
 console.log("Fifth Project")
 const insert=document.getElementById('insert')
@@ -236,7 +236,7 @@ window.addEventListener('keydown',(e)=>{
 
 
 ## Project-6
-[Click here](https://miniature-goldfish-7vvjjwj4gwqrcrj4r-5500.app.github.dev/07_projects/6-unlimitedColors/index.html)
+[Click here](https://synergisticgreed.github.io/js-hindi-youtube/07_projects/6-unlimitedColors/index.html)
 ```JavaScript
 console.log("Sixth Project")
 //generate a random color
