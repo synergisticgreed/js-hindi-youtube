@@ -1,0 +1,1 @@
+//old method of getter and setter
